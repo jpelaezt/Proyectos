@@ -17,3 +17,17 @@ function mostrar_imagen3(id) {
 	img = document.getElementById(id);
 	img.innerHTML = '<img id="img4" src="article_vinton-cerf_1.jpg" />';
 }
+
+alert("Hello! I am an alert box!!");
+console.log("Hello world!");
+
+var elemento = document.getElementById("btnBio1")
+elemento.addEventListener("click",function (){
+	alert("realizo cambio");
+})
+var i =0;
+var elemento = document.getElementById("btnBio1")
+elemento.addEventListener("mouseover",function (){
+	i = i + 1
+	console.log(i);
+})
