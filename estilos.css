@@ -51,6 +51,10 @@ div{
 body{
 	background-color:antiquewhite;
 }
+
+.body1{
+	background-color:red;
+}
 tr:nth-child(even) {background: #CCC }
 tr:nth-child(odd) {background: #FFF}
 tr:nth-child(2n+1) {font-weight: bold}
@@ -63,4 +67,6 @@ tr:nth-child(1) {
   td:nth-child(2) {
 	background: blue;
   }
+
+
   
